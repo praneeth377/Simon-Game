@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(1, 31, 63);
+}
+
+.failScreen {
+    background-color: red;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 80px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    font-size: 3rem;
+    color: rgb(254, 242, 191);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 220px);
+    grid-template-rows: repeat(2, 220px);
+    gap: 50px;
+}
+
+.container > * {
+    border: 11px solid black;
+    border-radius: 40px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.pressButton {
+    background-color: antiquewhite;
+    border-radius: 40px;
+}
